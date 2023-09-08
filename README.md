@@ -3,8 +3,8 @@
   css: {
     preprocessorOptions: {
       // 注册全局scss
-      sass: {
-        data: `@import "@/assets/style/public.scss";`
+      scss: {
+        additionalData: `@import "@/assets/public.scss";`
       }
     }
   }

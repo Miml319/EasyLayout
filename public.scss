@@ -38,5 +38,8 @@
   justify-content: space-between;
   flex-direction: column;
 }
+.grid {
+  display: grid;
+}
 //系统主题颜色
 $activeColor: #ff464d;

@@ -1,0 +1,42 @@
+.flexX {
+  display: flex;
+  align-items: flex-start;
+}
+.flexY {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.alignX {
+  display: flex;
+  align-items: center;
+}
+.alignY {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.centerX {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centerY {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.betweenX {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.betweenY {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+//系统主题颜色
+$activeColor: #ff464d;
